@@ -1,0 +1,23 @@
+body{
+background: #FAFAD2;
+Height: 100vh;
+}
+a {
+text-decoration: none;
+}
+.Menu{
+background: #FFEFD5;
+}
+.Menu li{
+list-style: none;
+}
+.Menu ul{
+display: Flex;
+justify-content: space-around
+}
+.site-title{
+text-align: center;
+}
+.Site-SubTitle{
+text-align: Center;
+}
