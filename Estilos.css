@@ -1,7 +1,17 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: borde-box;
+}
 body{
 background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-HKUZh9R9wXJ5zJQOZVV8GDs_mb7vuGDATztNj1S8JLqaEpQD&usqp=CAU");
-background-size: auto;
-Height: 100vh;
+Height: 100vw 100vh;
+}
+header{
+height: 100vh;
+Display: Flex;
+justify-content: center;
+align-items: center;
 }
 a {
 color: white;
@@ -9,6 +19,13 @@ text-decoration: none;
 }
 .Menu{
 background: #663399;
+position: Fixed;
+Top: 0;
+width: 100vh;
+}
+.menu a{
+display: Block;
+padding: 5px 10px;
 }
 .Menu li{
 list-style: none;
@@ -24,4 +41,8 @@ text-align: center;
 .Site-SubTitle{
 color: white;
 text-align: Center;
+}
+.img-Portifolio{
+height: 180px;
+width: 180px;
 }
