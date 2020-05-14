@@ -23,6 +23,7 @@ height: 100vh;
 Display: Flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 }
 a {
 color: white;
@@ -36,7 +37,8 @@ width: 100vh;
 }
 .menu a{
 display: Block;
-padding: 5px 10px;
+padding: 10px;
+text-decoration: none;
 }
 .Menu li{
 list-style: none;
