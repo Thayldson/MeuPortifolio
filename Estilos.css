@@ -4,9 +4,19 @@ padding: 0;
 box-sizing: borde-box;
 }
 body{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-HKUZh9R9wXJ5zJQOZVV8GDs_mb7vuGDATztNj1S8JLqaEpQD&usqp=CAU");
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdB-9M7PS6Ske_MbVA2giJEwkZwyqoeX6fq31xTNzmNZIILuc3&usqp=CAU");
+background-size: auto 100vh;
 Height: 100vh;
-width: 100vw;
+}
+@media (min-width:400px){
+	body{
+font-size: 14px
+}
+}
+@media (min-width:600px){
+	body {
+font-size: 16px
+}
 }
 header{
 height: 100vh;
@@ -33,7 +43,7 @@ list-style: none;
 }
 .Menu ul{
 display: Flex;
-justify-content: space-around
+justify-content: space-around;
 }
 .site-title{
 color: white;
@@ -47,7 +57,7 @@ text-align: Center;
 height: 180px;
 width: 180px;
 }
-.title-portifolio{
+.portifolio h2 {
 color: white;
 }
 figcaption {
