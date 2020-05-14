@@ -33,7 +33,7 @@ text-decoration: none;
 background: #663399;
 position: Fixed;
 Top: 0;
-width: 100vh;
+width: 100vw;
 }
 .menu a{
 display: Block;
