@@ -1,3 +1,4 @@
+
 * {
 margin: 0;
 padding: 0;
@@ -6,6 +7,7 @@ box-sizing: borde-box;
 body{
 background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdB-9M7PS6Ske_MbVA2giJEwkZwyqoeX6fq31xTNzmNZIILuc3&usqp=CAU");
 background-size: auto 100vh;
+font-family: 'Dosis', sans-serif;
 Height: 100vh;
 }
 @media (min-width:400px){
@@ -29,17 +31,29 @@ a {
 color: white;
 text-decoration: none;
 }
-.Menu{
+section {
+padding: 2em;
+}
+.Menu {
 background: #663399;
 position: Fixed;
 Top: 0;
 width: 100vw;
+z-index: 1;
 }
 .menu a{
 display: Block;
 padding: 10px;
 text-decoration: none;
+transition: background-color 5s, color 2s;
 }
+
+.menu a: active,
+.menu a: hover {
+background-color: red;
+color: white;
+}
+
 .Menu li{
 list-style: none;
 }
@@ -47,21 +61,58 @@ list-style: none;
 display: Flex;
 justify-content: space-around;
 }
-.site-title{
-color: white;
-text-align: center;
-}
+
+.site-title,
 .Site-SubTitle{
 color: white;
+font-family: 'Press Start 2P', cursive;
+font-size: 1em;
+line-height: 1.5em;
 text-align: Center;
 }
+
 .img-Portifolio{
 height: 180px;
 width: 180px;
 }
+
+.img-Portifolio: Haver{
+transition: scale (1);
+}
+
+.contato h2,
 .portifolio h2 {
 color: white;
+font-family: 'Press Start 2P', cursive;
+margin-bottom: 2em;
 }
+
+.portifolio .grid {
+display: Grid;
+grid-gap: 1em;
+grid-template-columns: repeat(3,240px);
+}
+
+.portifolio figure {
+text-align: center;
+}
+
 figcaption {
 color: white;
+}
+
+.contato a {
+color: white;
+font-size: 6em;
+transition: text-shadow 1s;
+}
+
+.contato a: active,
+.contato a:hover {
+text-decoration: none;
+text-shadow: 1px 1px 3px red;
+}
+
+.contato .icon {
+text-align: center;
 }
